@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: '无效的HEX颜色代码！',
     disabled: '不显示文件夹图标',
     theme: {
-      description: "'%0'主题的文件夹图标",
+      description: '\'%0\'主题的文件夹图标',
     },
   },
   opacity: {

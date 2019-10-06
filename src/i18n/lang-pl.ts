@@ -10,7 +10,7 @@ export const translation: Translation = {
   readChangelog: 'Przeczytaj listę zmian',
   iconPacks: {
     selectPack: 'Wybierz paczkę ikon',
-    description: "Wybierz paczkę ikon '%0'",
+    description: 'Wybierz paczkę ikon \'%0\'',
     disabled: 'Wyłącz paczki ikon',
   },
   folders: {
@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: 'Nieprawidłowy kolor HEX!',
     disabled: 'Brak ikon folderów',
     theme: {
-      description: "Wybierz motyw folderów '%0'",
+      description: 'Wybierz motyw folderów \'%0\'',
     },
   },
   opacity: {

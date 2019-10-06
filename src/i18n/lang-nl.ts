@@ -10,7 +10,7 @@ export const translation: Translation = {
   readChangelog: 'Lees de changelog',
   iconPacks: {
     selectPack: 'Selecteer een iconpakket',
-    description: "Selecteer het '%0' iconpakket",
+    description: 'Selecteer het \'%0\' iconpakket',
     disabled: 'Zet iconpaketten uit',
   },
   folders: {
@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: 'Ongeldige HEX kleurcode!',
     disabled: 'Geen foldericons',
     theme: {
-      description: "Selecteer het '%0' folderthema",
+      description: 'Selecteer het \'%0\' folderthema',
     },
   },
   opacity: {

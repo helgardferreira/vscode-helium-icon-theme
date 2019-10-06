@@ -10,7 +10,7 @@ export const translation: Translation = {
   readChangelog: 'Read changelog',
   iconPacks: {
     selectPack: 'Select an icon pack',
-    description: "Select the '%0' icon pack",
+    description: 'Select the \'%0\' icon pack',
     disabled: 'Disable icon packs',
   },
   folders: {
@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: 'Invalid HEX color code!',
     disabled: 'No folder icons',
     theme: {
-      description: "Select the '%0' folder theme",
+      description: 'Select the \'%0\' folder theme',
     },
   },
   opacity: {

@@ -10,7 +10,7 @@ export const translation: Translation = {
   readChangelog: 'Читать изменения версии',
   iconPacks: {
     selectPack: 'Выбрать набор иконок',
-    description: "Выбрать '%0' набор иконок",
+    description: 'Выбрать \'%0\' набор иконок',
     disabled: 'Выключить набор иконок',
   },
   folders: {
@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: 'Неверный HEX-код цвета!',
     disabled: 'Нет иконки для папки',
     theme: {
-      description: "Выбрать '%0' тему папки",
+      description: 'Выбрать \'%0\' тему папки',
     },
   },
   opacity: {

@@ -10,7 +10,7 @@ export const translation: Translation = {
   readChangelog: 'Ler changelog',
   iconPacks: {
     selectPack: 'Selecione um pacote de ícones',
-    description: "Selecionar o pacote de ícones '%0'",
+    description: 'Selecionar o pacote de ícones \'%0\'',
     disabled: 'Desabilitar pacotes de ícones',
   },
   folders: {
@@ -20,7 +20,7 @@ export const translation: Translation = {
     wrongHexCode: 'Código de cor hexadecimal inválido!',
     disabled: 'Nenhum ícone de pasta',
     theme: {
-      description: "Selecionar o tema para pastas '%0'",
+      description: 'Selecionar o tema para pastas \'%0\'',
     },
   },
   opacity: {

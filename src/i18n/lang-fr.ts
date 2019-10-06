@@ -9,9 +9,9 @@ export const translation: Translation = {
   themeUpdated: 'Helium Icon Theme a été mis à jour.',
   readChangelog: 'Lire la liste des changements',
   iconPacks: {
-    selectPack: "Sélectionnez un pack d'icônes",
-    description: "Sélectionner le pack d'icônes '%0'",
-    disabled: "Désactiver les paquets d'icônes",
+    selectPack: 'Sélectionnez un pack d\'icônes',
+    description: 'Sélectionner le pack d\'icônes \'%0\'',
+    disabled: 'Désactiver les paquets d\'icônes',
   },
   folders: {
     toggleIcons: 'Basculer les icônes de dossiers',
@@ -20,11 +20,11 @@ export const translation: Translation = {
     wrongHexCode: 'Code couleur HEX non valide!',
     disabled: 'Aucune icônes de dossiers',
     theme: {
-      description: "Icônes de dossiers '%0'",
+      description: 'Icônes de dossiers \'%0\'',
     },
   },
   opacity: {
-    inputPlaceholder: "Valeur d'opacité (entre 0 et 1)",
+    inputPlaceholder: 'Valeur d\'opacité (entre 0 et 1)',
     wrongValue: 'La valeur doit être comprise entre 0 et 1!',
   },
   toggleSwitch: {
