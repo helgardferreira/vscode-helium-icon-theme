@@ -12,10 +12,6 @@
     "url": "https://github.com/helgardferreira/vscode-helium-icon-theme.git"
   },
   "icon": "logo.png",
-  "galleryBanner": {
-    "color": "#263238",
-    "theme": "dark"
-  },
   "categories": [
     "Themes"
   ],
