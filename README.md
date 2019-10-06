@@ -1,5 +1,7 @@
 # Helium Icon Theme
 
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/logo.png" alt="helium file icon" width="100%">
+
 <!-- [![Version](https://vsmarketplacebadge.apphb.com/version-short/pkief.material-icon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) -->
 <!-- [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/pkief.material-icon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) -->
 <!-- [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/PKief.material-icon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) -->
@@ -7,21 +9,19 @@
 
 Based off of the original [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) extension, the "Helium Icon Theme" extension provides lots of icons based on Material Design for Visual Studio Code **including Mezzanine's own DSL - Helium!**
 
-<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/logo.png" alt="helium file icon" width="50%">
-
 ### File icons
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/fileIcons.png" alt="file icons" width="100%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/fileIcons.png" alt="file icons" width="100%">
 
 ### Folder icons
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/folderIcons.png" alt="folder icons" width="100%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/folderIcons.png" alt="folder icons" width="100%">
 
 #### Customize folder color
 
 You can change the color of the default folder icon using the command palette:
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/set-folder-color.gif" alt="custom folder colors" width="80%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/set-folder-color.gif" alt="custom folder colors" width="80%">
 
 or via user settings:
 
@@ -33,7 +33,7 @@ or via user settings:
 
 You can change the design of the folder icons using the command palette:
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/set-folder-theme.gif" alt="folder themes" width="80%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/set-folder-theme.gif" alt="folder themes" width="80%">
 
 or via user settings:
 
@@ -106,13 +106,13 @@ You can see the available icon names in the overview above.
 
 After installation or update you can click on the 'Activate'-button to activate the icon theme, if you haven't already. The icons will be visible immediately.
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/oneclickactivation.png" alt="activation" width="60%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/oneclickactivation.png" alt="activation" width="60%">
 
 ## Commands
 
 Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
 
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/master/images/commandPalette.png" alt="commands" width="80%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/commandPalette.png" alt="commands" width="80%">
 
 | Command                           | Description                                                                        |
 | --------------------------------- | ---------------------------------------------------------------------------------- |
