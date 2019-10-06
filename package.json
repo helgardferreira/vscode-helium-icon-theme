@@ -1,19 +1,15 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
-  "version": "3.9.0",
-  "publisher": "PKief",
+  "name": "helium-icon-theme",
+  "displayName": "Helium Icon Theme",
+  "description": "Helium and Material Design Icons for Visual Studio Code",
+  "version": "1.0.0",
+  "publisher": "helgardrichard",
   "engines": {
     "vscode": "^1.5.0"
   },
-  "homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PKief/vscode-material-icon-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PKief/vscode-material-icon-theme/issues"
+    "url": "https://github.com/helgardferreira/vscode-helium-icon-theme.git"
   },
   "icon": "logo.png",
   "galleryBanner": {
