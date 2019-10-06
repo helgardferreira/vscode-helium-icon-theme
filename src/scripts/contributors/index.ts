@@ -55,7 +55,7 @@ const fetchContributors = (
             prevPage: undefined,
           };
       console.log(
-        '> Material Icon Theme:',
+        '> Helium Icon Theme:',
         painter.yellow(
           `[${page}/${
             lastPage ? lastPage[1] : +prevPage[1] + 1
@@ -122,12 +122,12 @@ const updateContributors = async (config: ContributorsConfig) => {
 
   if (contributors.length > 0) {
     console.log(
-      '> Material Icon Theme:',
+      '> Helium Icon Theme:',
       painter.green(`Successfully fetched all contributors from GitHub!`),
     );
   } else {
     console.log(
-      '> Material Icon Theme:',
+      '> Helium Icon Theme:',
       painter.red(`Error: Could not fetch contributors from GitHub!`),
     );
     throw Error();
@@ -136,7 +136,7 @@ const updateContributors = async (config: ContributorsConfig) => {
 
   // create the image
   console.log(
-    '> Material Icon Theme:',
+    '> Helium Icon Theme:',
     painter.yellow(`Updating README.md ...`),
   );
   const readmePath = path.join(process.cwd(), 'README.md');
@@ -151,7 +151,7 @@ const updateContributors = async (config: ContributorsConfig) => {
   );
   fs.writeFileSync(readmePath, updatedContent);
   console.log(
-    '> Material Icon Theme:',
+    '> Helium Icon Theme:',
     painter.green(`Successfully updated README.md!`),
   );
 };

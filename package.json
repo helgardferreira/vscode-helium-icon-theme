@@ -19,6 +19,7 @@
     "icons",
     "theme",
     "material",
+    "helium",
     "icon-theme",
     "customization"
   ],
@@ -30,47 +31,47 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "material-icon-theme",
-        "label": "Material Icon Theme",
-        "path": "./dist/material-icons.json",
+        "id": "helium-icon-theme",
+        "label": "Helium Icon Theme",
+        "path": "./dist/helium-icons.json",
         "_watch": true
       }
     ],
     "commands": [
       {
-        "command": "material-icon-theme.activateIcons",
+        "command": "helium-icon-theme.activateIcons",
         "title": "%command.activateIcons%"
       },
       {
-        "command": "material-icon-theme.toggleIconPacks",
+        "command": "helium-icon-theme.toggleIconPacks",
         "title": "%command.toggleIconPacks%"
       },
       {
-        "command": "material-icon-theme.changeFolderTheme",
+        "command": "helium-icon-theme.changeFolderTheme",
         "title": "%command.changeFolderTheme%"
       },
       {
-        "command": "material-icon-theme.changeFolderColor",
+        "command": "helium-icon-theme.changeFolderColor",
         "title": "%command.changeFolderColor%"
       },
       {
-        "command": "material-icon-theme.restoreDefaultConfig",
+        "command": "helium-icon-theme.restoreDefaultConfig",
         "title": "%command.restoreDefaultConfig%"
       },
       {
-        "command": "material-icon-theme.toggleExplorerArrows",
+        "command": "helium-icon-theme.toggleExplorerArrows",
         "title": "%command.toggleExplorerArrows%"
       },
       {
-        "command": "material-icon-theme.changeOpacity",
+        "command": "helium-icon-theme.changeOpacity",
         "title": "%command.changeOpacity%"
       },
       {
-        "command": "material-icon-theme.toggleGrayscale",
+        "command": "helium-icon-theme.toggleGrayscale",
         "title": "%command.toggleGrayscale%"
       },
       {
-        "command": "material-icon-theme.changeSaturation",
+        "command": "helium-icon-theme.changeSaturation",
         "title": "%command.changeSaturation%"
       }
     ],
@@ -78,22 +79,22 @@
       "type": "object",
       "title": "%configuration.title%",
       "properties": {
-        "material-icon-theme.showWelcomeMessage": {
+        "helium-icon-theme.showWelcomeMessage": {
           "type": "boolean",
           "default": true,
           "description": "%configuration.showWelcomeMessage%"
         },
-        "material-icon-theme.showUpdateMessage": {
+        "helium-icon-theme.showUpdateMessage": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.showUpdateMessage%"
         },
-        "material-icon-theme.showReloadMessage": {
+        "helium-icon-theme.showReloadMessage": {
           "type": "boolean",
           "default": true,
           "description": "%configuration.showReloadMessage%"
         },
-        "material-icon-theme.activeIconPack": {
+        "helium-icon-theme.activeIconPack": {
           "type": "string",
           "default": "angular",
           "description": "%configuration.activeIconPack%",
@@ -118,22 +119,22 @@
             "none"
           ]
         },
-        "material-icon-theme.files.associations": {
+        "helium-icon-theme.files.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.files.associations%"
         },
-        "material-icon-theme.folders.associations": {
+        "helium-icon-theme.folders.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.folders.associations%"
         },
-        "material-icon-theme.languages.associations": {
+        "helium-icon-theme.languages.associations": {
           "type": "object",
           "default": {},
           "description": "%configuration.languages.associations%"
         },
-        "material-icon-theme.folders.theme": {
+        "helium-icon-theme.folders.theme": {
           "type": "string",
           "default": "specific",
           "description": "%configuration.folders.theme%",
@@ -148,25 +149,25 @@
             "none"
           ]
         },
-        "material-icon-theme.folders.color": {
+        "helium-icon-theme.folders.color": {
           "type": "string",
           "default": "#90a4ae",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "description": "%configuration.folders.color%"
         },
-        "material-icon-theme.opacity": {
+        "helium-icon-theme.opacity": {
           "type": "number",
           "default": 1,
           "minimum": 0,
           "maximum": 1,
           "description": "%configuration.opacity%"
         },
-        "material-icon-theme.hidesExplorerArrows": {
+        "helium-icon-theme.hidesExplorerArrows": {
           "type": "boolean",
           "default": false,
           "description": "%configuration.hidesExplorerArrows%"
         },
-        "material-icon-theme.saturation": {
+        "helium-icon-theme.saturation": {
           "type": "number",
           "default": 1,
           "minimum": 0,

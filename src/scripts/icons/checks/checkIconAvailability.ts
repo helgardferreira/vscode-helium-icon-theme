@@ -109,9 +109,9 @@ const checkLanguageIcons = () => {
 const handleErrors = () => {
     const amountOfErrors = wrongIconNames.fileIcons.length + wrongIconNames.folderIcons.length + wrongIconNames.languageIcons.length;
     if (amountOfErrors > 0) {
-        console.log('> Material Icon Theme:', painter.red(`Found ${amountOfErrors} error(s) in the icon configuration!`));
+        console.log('> Helium Icon Theme:', painter.red(`Found ${amountOfErrors} error(s) in the icon configuration!`));
     } else {
-        console.log('> Material Icon Theme:', painter.green(`Passed icon availability checks!`));
+        console.log('> Helium Icon Theme:', painter.green(`Passed icon availability checks!`));
     }
     logIconInformation(wrongIconNames.fileIcons, 'File icons');
     logIconInformation(wrongIconNames.folderIcons, 'Folder icons');

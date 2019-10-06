@@ -12,7 +12,7 @@ export enum ThemeStatus {
 export const checkThemeStatus = async (state: vscode.Memento) => {
   try {
     // get the version from the state
-    const stateVersion = state.get('material-icon-theme.version');
+    const stateVersion = state.get('helium-icon-theme.version');
     const packageVersion = getCurrentExtensionVersion();
 
     // check if the theme was used before
@@ -42,7 +42,7 @@ const themeIsAlreadyActivated = () => {
 /** Update the version number to the current version in the memento. */
 const updateExtensionVersionInMemento = (state: vscode.Memento) => {
   return state.update(
-    'material-icon-theme.version',
+    'helium-icon-theme.version',
     getCurrentExtensionVersion(),
   );
 };

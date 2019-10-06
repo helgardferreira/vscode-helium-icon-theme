@@ -95,7 +95,7 @@ const handleErrors = () => {
         ...Object.keys(allConflicts.folderIcons),
         ...Object.keys(allConflicts.languageIcons)
     ].length > 0) {
-        console.log('> Material Icon Theme:', painter.red('Icon conflicts:'));
+        console.log('> Helium Icon Theme:', painter.red('Icon conflicts:'));
         console.log(painter.red('--------------------------------------'));
 
         printErrorMessage(allConflicts.fileIcons.fileExtensions, 'fileExtension');
@@ -106,7 +106,7 @@ const handleErrors = () => {
         console.log('\n' + painter.red('Please check the wrong icon configurations!\n'));
         process.exit(1);
     } else {
-        console.log('> Material Icon Theme:', painter.green(`Passed icon conflict checks!`));
+        console.log('> Helium Icon Theme:', painter.green(`Passed icon conflict checks!`));
     }
 };
 

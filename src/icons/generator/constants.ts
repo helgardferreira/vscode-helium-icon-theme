@@ -6,7 +6,7 @@ export const iconFolderPath: string = './../icons/';
 /**
  * File name of the JSON file that will be generated to the out folder.
  */
-export const iconJsonName: string = 'material-icons.json';
+export const iconJsonName: string = 'helium-icons.json';
 
 /**
  * File ending for opened folders.

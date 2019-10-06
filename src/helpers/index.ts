@@ -29,7 +29,7 @@ export const setConfig = (
 };
 
 export const getThemeConfig = (section: string) => {
-  return getConfig('material-icon-theme').inspect(section);
+  return getConfig('helium-icon-theme').inspect(section);
 };
 
 /** Set the config of the theme. */
@@ -38,7 +38,7 @@ export const setThemeConfig = (
   value: any,
   global: boolean = false,
 ) => {
-  return getConfig('material-icon-theme').update(section, value, global);
+  return getConfig('helium-icon-theme').update(section, value, global);
 };
 
 /**
@@ -48,9 +48,9 @@ export const setThemeConfig = (
 export const isThemeActivated = (global: boolean = false): boolean => {
   return global
     ? getConfig().inspect('workbench.iconTheme').globalValue ===
-        'material-icon-theme'
+        'helium-icon-theme'
     : getConfig().inspect('workbench.iconTheme').workspaceValue ===
-        'material-icon-theme';
+        'helium-icon-theme';
 };
 
 /** Is the theme not visible for the user? */
