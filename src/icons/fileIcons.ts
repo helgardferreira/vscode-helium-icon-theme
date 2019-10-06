@@ -775,6 +775,7 @@ export const fileIcons: FileIcons = {
         { name: 'webassembly', fileExtensions: ['wat', 'wasm'] },
         { name: 'semantic-release', light: true, fileNames: ['.releaserc', 'release.config.js'] },
         { name: 'bitbucket', fileNames: ['bitbucket-pipelines.yaml', 'bitbucket-pipelines.yml'] },
+        { name: 'helium', fileExtensions: ['mez'] },
         { name: 'jupyter', fileExtensions: ['ipynb'] },
         { name: 'd', fileExtensions: ['d'] },
         { name: 'mdx', fileExtensions: ['mdx'] },
