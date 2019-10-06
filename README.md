@@ -7,7 +7,7 @@
 
 Based off of the original [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) extension, the "Helium Icon Theme" extension provides lots of icons based on Material Design for Visual Studio Code **including Mezzanine's own DSL - Helium!**
 
-<img src="./logo.png" alt="helium file icon" width="50%">
+<img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/logo.png" alt="helium file icon" width="50%">
 
 ### File icons
 
