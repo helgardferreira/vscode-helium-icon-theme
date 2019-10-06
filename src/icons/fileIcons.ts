@@ -48,6 +48,7 @@ export const fileIcons: FileIcons = {
             name: 'xml',
             fileExtensions: [
                 'xml',
+                'vxml',
                 'plist',
                 'xsd',
                 'dtd',
@@ -142,7 +143,9 @@ export const fileIcons: FileIcons = {
                 'prefs',
                 'sln.dotsettings',
                 'sln.dotsettings.user',
-                'cfg'
+                'cfg',
+                'lang',
+                'input'
             ],
             fileNames: [
                 '.jshintignore',
