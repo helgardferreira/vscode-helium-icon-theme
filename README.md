@@ -101,7 +101,7 @@ You can see the available icon names in the overview above.
 
 ## Commands
 
-Press `Ctrl-Shift-P` to open the command palette and type `Material Icons`.
+Press `Ctrl-Shift-P` to open the command palette and type `Helium Icons`.
 
 <img src="https://raw.githubusercontent.com/helgardferreira/vscode-helium-icon-theme/master/images/commandPalette.png" alt="commands" width="80%">
 
